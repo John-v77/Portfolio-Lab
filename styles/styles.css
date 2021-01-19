@@ -1,0 +1,54 @@
+
+main{
+    background-color: #fefefe ;
+}
+body{
+    margin-top: 5vh;
+    margin-left: 10vw;
+    background-color: #f2f2f2;
+    height: 90vh;
+    width: 80vw;
+}
+
+
+.nav-bar{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+.nav-bar a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+header{
+    height: 30vh;
+}
+.Case-study-pics{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Case-study-pics img{
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly; */
+    padding: 30px auto;
+    width: 32vw;
+    height: 200px;
+}
+
+----
