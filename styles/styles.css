@@ -3,8 +3,9 @@ main{
     background-color: #fefefe ;
 }
 body{
-    /* display: flex;
-    flex-flow: column; */
+    padding:0, 3vw;
+    display: flex;
+    flex-flow: column;
     margin-top: 0;
     margin-left: 9vw;
     background-color: #292020;
@@ -52,6 +53,7 @@ h1{
 }
 
 #justify-text-mobile{
+    padding: 3vw;
     text-align: justify;
 }
 
@@ -74,7 +76,7 @@ header:nth-child(2){
     align-items: center;
     flex-wrap: wrap; */
     /* justify-content: space-evenly; */
-    width: 77vw;
+    width: 75vw;
     height: 20vh;
 }
 
@@ -83,4 +85,44 @@ header:nth-child(2){
     height: 30px;
 }
 
-----
+/* -----sectio : reseach-stories-section - index --------- */
+
+/* .substory-index{
+    display: flex;
+    flex-direction: column;
+    
+} */
+
+
+.test1 div{
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    background-color:grey;
+    border-color:blue;
+}
+
+.column-1{
+    background-color:green;
+    width:15vw;
+}
+
+
+.column-2
+{
+    background-color:blue;
+    width:15vw;
+}
+.column-3
+
+/* targets Reseach stories title */
+.reseach-stories{
+    color: blue;
+    font-size: 3vh;
+    text-align: center;
+}
+
+#hearth{
+    width:30px;
+    height: 30px;
+}
