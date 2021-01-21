@@ -29,6 +29,8 @@ nav img{
 }
 
 .nav-bar{
+    padding-right: 2vw;
+    padding-top: 3vw;
     /* background-color: rgb(43, 76, 226); */
     display: flex;
     justify-content: space-between;
@@ -39,7 +41,14 @@ nav img{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+}
 
+
+.nav-bar li{
+    font-family: 'Lato';
+    font-size: 3em;
+    font-weight: 700;
+    padding: 0 2vw;
 }
 
 .nav-bar h3{
@@ -62,8 +71,19 @@ section {
 header {
     width: 89vw;}
 
-h1,h3{
+
+header h1{
+    font-size: 3.5vw;
+    font-weight: 600
+    text-align:left;
+}
+
+header h3{
+    font-size: 1.5vw;
+    font-weight: 500;
     text-align: left;
+}
+    
 }
  
  header p{
@@ -163,7 +183,7 @@ hr{
 .reseach-stories-section{
     height: 30vh;
     width: 96vh;
-    background-image: linear-gradient(to bottom right, red, yellow);
+    background-image: linear-gradient(#80FFDD, White);
 }
 
 .reseach-stories-section h3{
@@ -301,7 +321,7 @@ footer{
 
 
      .Case-study-pics img{
-        padding:1vw;
+        padding:0 1.3vw;
         width:44vw;
         height:25vw;
     }
@@ -326,5 +346,9 @@ footer{
     .reseach-stories h3{
         text-align:left;
 
+    }
+
+    .Case-study-pics div{
+        padding-bottom: 3vw;
     }
 }
