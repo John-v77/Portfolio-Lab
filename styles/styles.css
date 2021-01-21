@@ -148,7 +148,7 @@ hr{
 .thank-you-for-scrolling{
     height: 300px;
     width:300px;
-    background:url(`E:/Picture,icons/landscape-lights-sunset-sea-bay-hotel-358923-wallhere.com.jpg`);
+    background:url(E:/Picture,icons/landscape-lights-sunset-sea-bay-hotel-358923-wallhere.com.jpg);
     background-size: contain;
     
 }
@@ -164,14 +164,16 @@ footer{
     justify-content: space-between;
 }
 .footer1{
-    background-color:lightgreen;
+    /* background-color:lightgreen; */
     widows: 25vw;
+    padding-left: 10vw;
 }
 
 
 .footer2{
-    background-color:lightskyblue;
+    /* background-color:lightskyblue; */
     widows: 25vw;
+    padding-right: 10vw;
 }
 
 
@@ -209,4 +211,32 @@ footer{
 .about-main-content img{
     width: 96vw;
     height: 20vh;
+}
+
+
+.about-workWith-passion img{
+    padding:4vw 0;
+    width:50vw;
+    height:50vw;
+    
+}
+
+
+.about-workWith-passion{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.textClass{
+    padding:5vw;
+}
+
+.about-bot-H1{
+    background-color:black;
+    color:goldenrod;
+    height: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
