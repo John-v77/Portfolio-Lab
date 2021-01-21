@@ -78,7 +78,7 @@ header:nth-child(2){
 
 .Case-study-pics img{
     width: 96vw;
-    height: 20vh;
+    height: 25vh;
 }
 
 .Case-study-pics h3,
@@ -159,8 +159,9 @@ hr{
 .thank-you-for-scrolling{
     height: 300px;
     width:300px;
-    background:url(E:/Picture,icons/landscape-lights-sunset-sea-bay-hotel-358923-wallhere.com.jpg);
+    background:url(../images/placeholder-2.png);
     background-size: contain;
+    background-repeat: no-repeat;
     
 }
 
