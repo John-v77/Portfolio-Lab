@@ -1,0 +1,62 @@
+body{
+    background-color:rgb(46, 196, 0);
+
+    width:1024;
+    
+}
+
+
+
+
+@media screen and (max-width : 799px){
+
+
+    body{
+        background-color:blue;
+    }
+}
+    /* .Case-study-pics img:p:nth-child(even) {
+        width: 30vw;
+        height: 25vh;
+    }
+
+    .Case-study-pics{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .extra-items{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    h1{
+        color:pink;
+    } */
+    
+    /* } */
+/* }
+.extra-items,
+.Case-study-pics{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+..Case-study-pics div{
+    padding-left:2vw;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+.Case-study-pics img{
+    padding:1vw;
+    width:44vw;
+    height:25vw;
+} */

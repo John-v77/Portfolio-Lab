@@ -12,7 +12,7 @@ body{
     flex-flow: column;
     align-items: center;
     margin:0;
-    background-image: linear-gradient(to bottom right, red, yellow)
+    /* background-image: linear-gradient(to bottom right, red, yellow) */
 
 }
 
@@ -21,9 +21,15 @@ body{
 h1,h2,h3,h4,h5,h6{font-family: roboto;}
 p{font-family: Lato;}
 
+nav img{
+    width:11vw;
+    height: 9.5vw;
+    /* width: */
+
+}
 
 .nav-bar{
-    background-color: rgb(43, 76, 226);
+    /* background-color: rgb(43, 76, 226); */
     display: flex;
     justify-content: space-between;
 }
@@ -43,7 +49,7 @@ p{font-family: Lato;}
 
 .nav-bar a{
     font-size: 1.3ch;
-    color: white;
+    color: Black;
     padding: 10px;
     text-decoration: none;
 }
@@ -53,12 +59,11 @@ section {
     margin: 0;
     padding: 0;
 }
-header{
-    /* height: 30vh; */
-}
+header {
+    width: 89vw;}
 
-h1{
-    text-align: center;
+h1,h3{
+    text-align: left;
 }
  
  header p{
@@ -86,6 +91,7 @@ header:nth-child(2){
 }
 
 .Case-study-pics img{
+
     width: 96vw;
     height: 25vh;
 }
@@ -154,7 +160,11 @@ hr{
 }
 
 
-
+.reseach-stories-section{
+    height: 30vh;
+    width: 96vh;
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
 
 .reseach-stories-section h3{
     text-align: center;
@@ -166,9 +176,9 @@ hr{
     height: 30px;
 }
 .thank-you-for-scrolling{
-    height: 300px;
-    width:300px;
-    background:url(../images/placeholder-2.png);
+    
+    height: auto;
+    width: 96vw;
     background-size: contain;
     background-repeat: no-repeat;
     
@@ -262,6 +272,11 @@ footer{
     justify-content:center;
 }
 
+
+#extra-pic{
+    display: none;
+}
+
 .extra-items{
     display: none;
 }
@@ -274,7 +289,42 @@ footer{
 } */
 
 
+@media screen and (min-width : 1024px){
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+    .Main-block-content{
+
+   
+        /* background-image: linear-gradient(to bottom right, rgba(72, 255, 0, 0.603), rgb(24, 67, 209)) */
+    
+    }
+
+
+     .Case-study-pics img{
+        padding:1vw;
+        width:44vw;
+        height:25vw;
+    }
+
+    .Case-study-pics{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .extra-items{
+        display: flex;
+        justify-content: center;
+    }
+
+    #extra-pic{
+        display:block;
+        
+    }
+    
+    .reseach-stories h3{
+        text-align:left;
 
     }
+}
