@@ -67,7 +67,7 @@ header:nth-child(2){
 }
 
 .Case-study-pics{
-    background-color:rgb(76, 87, 122);
+    background-color:rgb(124, 150, 236);
     padding: 2vw 0;
     display: flex;
     flex-direction: column;
@@ -79,6 +79,17 @@ header:nth-child(2){
 .Case-study-pics img{
     width: 96vw;
     height: 20vh;
+}
+
+.Case-study-pics h3,
+.Case-study-pics p{
+    padding-left: 3vw;
+}
+
+
+.case-big-padding{
+    padding-bottom: 15vh;
+
 }
 
 .social-Media-pics img{
