@@ -1,17 +1,15 @@
-
-main{
-    background-color: #fefefe ;
-}
 body{
-    padding:0, 3vw;
+    margin:0;
+    padding:0 2vw;
+}
+.Main-block-content{
+    
     display: flex;
     flex-flow: column;
-    margin-top: 0;
-    margin-left: 9vw;
-    background-color: #292020;
-     /* #f2f2f2; */
-    height: 90vh;
-    width: 80vw;
+    align-items: center;
+    margin:0;
+    background-color:#fefefe;
+
 }
 
 
@@ -41,6 +39,11 @@ body{
     text-decoration: none;
 }
 
+
+section {
+    margin: 0;
+    padding: 0;
+}
 header{
     /* height: 30vh; */
 }
@@ -64,6 +67,8 @@ header:nth-child(2){
 }
 
 .Case-study-pics{
+    background-color:rgb(76, 87, 122);
+    padding: 2vw 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,18 +77,15 @@ header:nth-child(2){
 }
 
 .Case-study-pics img{
-    /* display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap; */
-    /* justify-content: space-evenly; */
-    width: 75vw;
+    width: 96vw;
     height: 20vh;
 }
 
 .social-Media-pics img{
+    padding-top: 2vh;
     width: 30px;
     height: 30px;
+    padding-bottom: 5vh;
 }
 
 /* -----sectio : reseach-stories-section - index --------- */
@@ -95,44 +97,63 @@ header:nth-child(2){
 } */
 
 
-.test1 div{
-    margin: 0;
-    width: 50px;
-    height: 50px;
-    background-color:grey;
-    border-color:blue;
-}
 
-.column-1{
-    background-color:green;
-    width:15vw;
-}
-
-
-.column-2
-{
-    background-color:blue;
-    width:15vw;
-}
-.column-3
 
 /* targets Reseach stories title */
 .reseach-stories{
-    color: blue;
+    /* color: blue;
     font-size: 3vh;
+    text-align: center; */
+}
+
+hr{
+    width:82vw;
+    border-bottom: 1px solid;
+    
+}
+
+.column-1{
+    width:25vw;
+    margin:0;
+}
+.column-2{
+    width:50vw;
+    margin:0;
+}
+.column-3{
+    width:25vw;
+    margin:0;
+}
+
+
+.substory-index{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+}
+
+
+
+
+.reseach-stories-section h3{
     text-align: center;
 }
+
 
 #hearth{
     width:30px;
     height: 30px;
 }
 .thank-you-for-scrolling{
-    background-color:rgb(202, 202, 202);
+    height: 300px;
+    width:300px;
+    background:url(`E:/Picture,icons/landscape-lights-sunset-sea-bay-hotel-358923-wallhere.com.jpg`);
+    background-size: contain;
     
 }
 
-.flexHeader{
+.flexBox-story{
     display: flex;
     flex-direction: row;
 }
@@ -151,4 +172,41 @@ footer{
 .footer2{
     background-color:lightskyblue;
     widows: 25vw;
+}
+
+
+/* About page CSS */
+
+#hero-picture{
+    padding-bottom:5vh;
+}
+
+#hero-picture img{
+    width:190px;
+    height: 190px;
+    border-radius:50%
+
+}
+
+.about-myStory{
+    background-color:lightgray;
+
+}
+
+.about-myStory img{
+    width: 75vw;
+    height: 20vh;
+}
+
+
+/* _________About Style___________-- */
+
+
+.about-main-content{
+    background-color: forestgreen;
+}
+
+.about-main-content img{
+    width: 96vw;
+    height: 20vh;
 }
