@@ -106,8 +106,7 @@ header:nth-child(2){
 }
 
 .Case-study-pics{
-    /* background-color:rgb(124, 150, 236); */
-    padding: 2vw 0;
+    background: linear-gradient(181.29deg, rgba(114, 239, 221, 0.8) 1.1%, rgba(128, 255, 219, 0) 77.5%);padding: 2vw 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,13 +116,13 @@ header:nth-child(2){
 
 .Case-study-pics img{
 
-    width: 96vw;
-    height: 25vh;
+    width: 93vw;
+    height: 49vh;
+}
 }
 
 
 .Case-study-pics p{
-    padding:-10px;
     text-align: left;
     padding-left: 3vw;
 }
@@ -292,13 +291,17 @@ footer{
 
 .about-bot-H1{
     
-    color:goldenrod;
+    color: white;
+    background: linear-gradient(180deg, rgba(116, 0, 184, 0.8) 0%, rgba(100, 223, 223, 0.5) 99.99%, rgba(221, 221, 221, 0) 100%);
     height: 30vw;
     display: flex;
     align-items: center;
     justify-content:center;
 }
 
+.about-bot-H1 p{
+    font-size: 1.7em;
+}
 
 #extra-pic{
     display: none;
@@ -323,7 +326,7 @@ footer{
 
    
         /* background-image: linear-gradient(to bottom right, rgba(72, 255, 0, 0.603), rgb(24, 67, 209)) */
-    
+        
     }
 
     nav img{
@@ -341,6 +344,7 @@ footer{
     }
 
     .Case-study-pics{
+
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -380,5 +384,16 @@ footer{
     
     }
 
+    .header-about{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
 
+    .header-about div{
+        width: 40vw;
+        height: 40vw;
+    }
+
+    C
 }
