@@ -21,12 +21,7 @@ body{
 h1,h2,h3,h4,h5,h6{font-family: roboto;}
 p{font-family: Lato;}
 
-nav img{
-    width:11vw;
-    height: 9.5vw;
-    /* width: */
 
-}
 
 .nav-bar{
     padding-right: 2vw;
@@ -43,10 +38,18 @@ nav img{
     list-style-type: none;
 }
 
+nav img{
+    padding:1vw 0 0 1vw;
+    width:30vw;
+    height: 20vw;
+    /* width: */
+
+}
+
 
 .nav-bar li{
     font-family: 'Lato';
-    font-size: 3em;
+    font-size: 1em;
     font-weight: 700;
     padding: 0 2vw;
 }
@@ -78,9 +81,11 @@ header h1{
     text-align:left;
 }
 
-header h3{
+header a{
+    font-family: lato;
+    color:black;
     font-size: 1.5vw;
-    font-weight: 500;
+    font-weight: 700;
     text-align: left;
 }
     
@@ -116,8 +121,10 @@ header:nth-child(2){
     height: 25vh;
 }
 
-.Case-study-pics h3,
+
 .Case-study-pics p{
+    padding:-10px;
+    text-align: left;
     padding-left: 3vw;
 }
 
@@ -235,8 +242,8 @@ footer{
 }
 
 #hero-picture img{
-    width:190px;
-    height: 190px;
+    width: 50vw;
+    height: 50vw;
     border-radius:50%
 
 }
@@ -308,7 +315,7 @@ footer{
     }
 } */
 
-
+/* ________________ Media query for Desktop ___________________ */
 @media screen and (min-width : 1024px){
 
 
@@ -316,6 +323,13 @@ footer{
 
    
         /* background-image: linear-gradient(to bottom right, rgba(72, 255, 0, 0.603), rgb(24, 67, 209)) */
+    
+    }
+
+    nav img{
+        width:11vw;
+        height: 9.5vw;
+        /* width: */
     
     }
 
@@ -351,4 +365,20 @@ footer{
     .Case-study-pics div{
         padding-bottom: 3vw;
     }
+
+    .nav-bar li{
+        font-family: 'Lato';
+        font-size: 3em;
+        font-weight: 700;
+        padding: 0 2vw;
+    }
+
+    #hero-picture img{
+        width: 25vw;
+        height: 25vw;
+        border-radius:50%
+    
+    }
+
+
 }
