@@ -1,166 +1,215 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
-body{
-    margin:0;
-    padding:0;
-    /* background-image: linear-gradient(to right, red , yellow); */
+body {
+  margin: 0;
+  padding: 0;
+  /* background-image: linear-gradient(to right, red , yellow); */
 }
-.Main-block-content{
-    padding:0 2vw;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    margin:0;
-    /* background-image: linear-gradient(to bottom right, red, yellow) */
-
+.Main-block-content {
+  padding: 0 2vw;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 0;
+  /* background-image: linear-gradient(to bottom right, red, yellow) */
 }
-
 
 /* aplying font to the page */
-h1,h2,h3,h4,h5,h6{font-family: roboto;}
-p{font-family: Lato;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: roboto;
+}
+a{
+  font-size: inherit;
+}
 
-
+p{
+  font-size:18px;
+  font-family: Lato;
+}
 
 /* ----------_---- */
 
-.btn span{
-    font-size: 1.3vw;
-  }
-  
-  /* Style the active class, and buttons on mouse-over */
-  /* .btn:active, */
+.btn span {
+  font-size: 3vw;
+}
 
-   .btn span:hover {
-    color: #9033C6;
-    
-  }
+/* Style the active class, and buttons on mouse-over */
+/* .btn:active, */
+
+.btn span:hover {
+  color: #9033c6;
+}
 /* ---------------------- */
 
-.nav-bar{
-    padding-right: 2vw;
-    padding-top: 3vw;
-    /* background-color: rgb(43, 76, 226); */
-    display: flex;
-    justify-content: space-between;
+.nav-bar {
+  padding-right: 2vw;
+  padding-top: 3vw;
+  /* background-color: rgb(43, 76, 226); */
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-bar ul {
-    margin-top: 0;
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
 }
 
-nav img{
-    padding:1vw 0 0 1vw;
-    width:30vw;
-    height: 20vw;
-    /* width: */
+nav img {
+  padding: 1vw 0 0 1vw;
+  width: 30vw;
+  height: 20vw;
+  /* width: */
 }
 
-
-.nav-bar li{
-    font-family: 'Lato';
-    font-size: 1em;
-    font-weight: 700;
-    padding: 0 2vw;
+.nav-bar li {
+  font-family: "Lato";
+  font-size: 1em;
+  font-weight: 700;
+  padding: 0 2vw;
 }
 
-.nav-bar h3{
-    margin-top: 0.1vh;
-    margin-left: 2vw;
+.nav-bar h3 {
+  margin-top: 0.1vh;
+  margin-left: 2vw;
 }
 
-.nav-bar a{
-    font-size: 1.3ch;
-    color: Black;
-    padding: 10px;
-    text-decoration: none;
+.nav-bar a {
+  font-size: 1.3ch;
+  color: Black;
+  padding: 10px;
+  text-decoration: none;
 }
-
 
 section {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    width: 89vw;}
-
-
-header h1{
-    font-size: 3.2vw;
-    font-weight: 600;
-    text-align:left;
+  width: 89vw;
 }
 
-header a{
-    font-family: lato;
-    color:black;
-    font-size: 1.5vw;
-    font-weight: 700;
-    text-align: left;
-}
-    
-
- 
- header p{
-    text-align: center;
+header h1 {
+  font-size: 3.2vw;
+  font-weight: 600;
+  text-align: left;
 }
 
-header div{
-    padding-bottom: 9vh;
-}
-#justify-text-mobile{
-    padding: 3vw;
-    text-align: justify;
+header a {
+  display:none;
 }
 
 
-header:nth-child(2){
-    text-align: center;
+.thank-you-for-scrolling a{
+  font-family: lato;
+  color: black;
+  font-weight: 600;
+  text-align: left;
 }
-.Case-study-pics-about,
-.Case-study-pics{
+
+header p {
+  text-align: center;
+}
+
+header div {
+  padding-bottom: 8vh;
+}
+#justify-text-mobile {
+  padding: 3vw;
+  text-align: justify;
+}
+
+header:nth-child(2) {
+  text-align: center;
+}
+
+
+
+.Case-study-pics-about{
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+  }
+
+
+  .Case1-Case-study-pics {
+    border: 4px solid;
     display: flex;
     flex-direction: column;
     align-items: center;
     /* flex-wrap: wrap; */
     justify-content: space-evenly;
+  }
+
+.Home-main-pics {
+  border: 4px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
 }
 
-.Case-study-pics-about{
-background: linear-gradient(181.29deg, rgba(114, 239, 221, 0.8) 1.1%, rgba(128, 255, 219, 0) 77.5%);padding: 2vw 0;
+.Case-study-pics-about {
+  display: flex;
+  justify-content: space-evenly;
+  background: linear-gradient(
+    181.29deg,
+    rgba(114, 239, 221, 0.8) 1.1%,
+    rgba(128, 255, 219, 0) 77.5%
+  );
+  padding: 2vw 0;
+}
+
+.inner-Case-study-pics-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+
+}
+
+.Case-study-pics-about img{
+  width: 93vw;
+  height: 49vh;
 }
 
 
-.Case-study-pics-about img,
-.Case-study-pics img{
-
-    width: 93vw;
-    height: 49vh;
+.Case-study-main-pics img,
+.Home-main-pics img {
+  width: 93vw;
+    height: 58vw;
 }
-
 
 .Case-study-pics-about p,
-.Case-study-pics p{
-    text-align: left;
-    padding-left: 1vw;
+.Home-main-pics p {
+  text-align: left;
+  padding-left: 1vw;
 }
 
-
-.case-big-padding{
-    padding-bottom: 15vh;
-
+.case-big-padding {
+  padding-bottom: 15vh;
 }
 
-.social-Media-pics img{
-    padding-top: 2vh;
-    width: 30px;
-    height: 30px;
-    padding-bottom: 5vh;
+.social-Media-pics-mobile {
+  padding-top: 2vh;
+  width: 30px;
+  height: 30px;
+  padding-bottom: 5vh;
+}
+
+.social-Media-pics-Desktop {
+  display: none;
 }
 
 /* -----sectio : reseach-stories-section - index --------- */
@@ -171,322 +220,441 @@ background: linear-gradient(181.29deg, rgba(114, 239, 221, 0.8) 1.1%, rgba(128, 
     
 } */
 
-
-
-
-targets Reseach stories title */
-.reseach-stories{
-    /* color: blue;
-    font-size: 3vh;
-    text-align: center;*/
+hr {
+  width: 82vw;
+  border-bottom: 1px solid;
 }
 
-hr{
-    width:82vw;
-    border-bottom: 1px solid;
-    
+.column-1 {
+  width: 25vw;
+  margin: 0;
+}
+.column-2 {
+  width: 50vw;
+  margin: 0;
+}
+.column-3 {
+  width: 25vw;
+  margin: 0;
 }
 
-.column-1{
-    width:25vw;
-    margin:0;
-}
-.column-2{
-    width:50vw;
-    margin:0;
-}
-.column-3{
-    width:25vw;
-    margin:0;
+.substory-index {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-
-.substory-index{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
+.reseach-stories-section {
+  height: auto;
+  width: 100vw;
+  background-image: linear-gradient(#80ffdd, White);
 }
 
-
-.reseach-stories-section{
-    height: 30vh;
-    width: 96vh;
-    background-image: linear-gradient(#80FFDD, White);
+.reseach-stories-section h3 {
+  text-align: left;
+  padding: 5vw;
 }
 
-.reseach-stories-section h3{
-    text-align: center;
+#hearth {
+  width: 30px;
+  height: 30px;
+}
+.thank-you-for-scrolling {
+  height: auto;
+  width: 100vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 12vw;
 }
 
-
-#hearth{
-    width:30px;
-    height: 30px;
-}
-.thank-you-for-scrolling{
-    
-    height: auto;
-    width: 96vw;
-    background-size: contain;
-    background-repeat: no-repeat;
-    
-}
-
-.flexBox-story{
-    display: flex;
-    flex-direction: row;
-}
-
-footer{
-    background: linear-gradient(#d8d8d8cc, #fafafa00);
-    /* background: linear-gradient(to bottom, #d8d8d8cc 100%, #FAFAFA 50%); */
-/* transform: rotate(-180deg); */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.footer1{
-    /* background-color:lightgreen; */
-    widows: 25vw;
-    padding-left: 10vw;
+.thank-you-for-scrolling p{
+  width:100vw;
 }
 
 
-.footer2{
-    /* background-color:lightskyblue; */
-    widows: 25vw;
-    padding-right: 10vw;
+.flexBox-story {
+  display: flex;
+  flex-direction: row;
 }
 
+footer {
+  width: 100vw;
+  background: linear-gradient(#d8d8d8cc, #fafafa00);
+  margin: 0 auto 2x;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer hr {
+  width: 34vw;
+  border: 1px solid;
+}
+
+.footer1 {
+  /* background-color:lightgreen; */
+  widows: 25vw;
+  padding-left: 10vw;
+}
+
+.footer2 {
+  display: none;
+}
+
+.footer3 {
+  /* background-color:lightskyblue; */
+  widows: 25vw;
+  padding-right: 10vw;
+}
 
 /* About page CSS */
 
-#hero-picture{
-    padding-bottom:5vh;
+#hero-picture {
+  padding-bottom: 5vh;
 }
 
-#hero-picture img{
-    width: 50vw;
-    height: 50vw;
-    border-radius:50%
-
+#hero-picture img {
+  width: 50vw;
+  height: 50vw;
+  border-radius: 50%;
 }
 
-.about-myStory{
-    background-color:lightgray;
-
+.about-myStory {
+  background-color: lightgray;
 }
 
-.about-myStory img{
-    width: 75vw;
-    height: 20vh;
+.about-myStory img {
+  width: 75vw;
+  height: 20vh;
 }
-
 
 /* _________About Style___________-- */
 
-
-.about-main-content{
-    background-color: forestgreen;
+.about-main-content {
+  background-color: forestgreen;
 }
 
-.about-main-content img{
-    width: 96vw;
-    height: 20vh;
+.about-main-content img {
+  width: 96vw;
+  height: 20vh;
 }
 
-
-.about-workWith-passion img{
-    padding:4vw 0;
-    width:50vw;
-    height:50vw;
-    
+.about-museums img {
+  padding: 4vw 0;
+  width: 50vw;
+  height: 50vw;
 }
 
-
-.about-workWith-passion{
-    display: flex;
-    flex-flow: column;
-    align-items: center;
+.about-museums {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 
-.textClass{
-    padding:5vw;
+.textClass {
+  padding: 5vw;
 }
 
-.about-bot-H1{
-    
-    color: white;
-    background: linear-gradient(180deg, rgba(116, 0, 184, 0.8) 0%, rgba(100, 223, 223, 0.5) 99.99%, rgba(221, 221, 221, 0) 100%);
-    height: 30vw;
-    display: flex;
-    align-items: center;
-    justify-content:center;
+.about-bot-H1 {
+  color: white;
+  background: linear-gradient(
+    180deg,
+    rgba(116, 0, 184, 0.8) 0%,
+    rgba(100, 223, 223, 0.5) 99.99%,
+    rgba(221, 221, 221, 0) 100%
+  );
+  height: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.about-bot-H1 p{
-    font-size: 1.7em;
+.about-bot-H1 p {
+  font-size: 1.7em;
 }
 
-#extra-pic{
-    display: none;
+#extra-pic {
+  display: none;
 }
 
-.extra-items{
-    display: none;
+.extra-items {
+  display: none;
 }
 
-.case-studies-Responsive-largeScreen{
-    display: none;
+.case-studies-Responsive-largeScreen {
+  display: none;
 }
-
 
 /* @media only screen and (min-width : 321px) {
-    .Case-study-pics img{
+    .Home-main-pics img{
         width: 96vw;
         height: 30vh;
     }
 } */
 
 /* ________________ Media query for Desktop ___________________ */
-@media screen and (min-width : 1024px){
+@media screen and (min-width: 1024px) {
+  .Main-block-content {
+    margin: 0;
+    padding: 0;
+    /* background-image: linear-gradient(to bottom right, rgba(72, 255, 0, 0.603), rgb(24, 67, 209)) */
+  }
 
+  nav img {
+    width: 11vw;
+    height: 9.5vw;
+    /* width: */
+  }
 
-    .Main-block-content{
+  .btn span {
+    font-size: 1.3vw;
+  }
 
-        margin: 0;
-        padding: 0;
-        /* background-image: linear-gradient(to bottom right, rgba(72, 255, 0, 0.603), rgb(24, 67, 209)) */
-        
-    }
-
-    nav img{
-        width:11vw;
-        height: 9.5vw;
-        /* width: */
-    
-    }
-
-     .Case-study-pics-about,
-      .Case-study-pics img{
-        padding:0 1.3vw;
-        width:44vw;
-        height:25vw;
-    }
-
-    .Case-study-pics-about, 
-    .Case-study-pics{
-    
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .Case-study-pics{
-        font-family: Lato, Arial, sans-serif;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: normal;
-        letter-spacing: normal;
-        line-height: 24px;
-        text-transform: none;
-    }
-
-    .Case-study-pics p{
-        padding-top: 20px;
-        font-family: Lato;
-        font-size: 1.3em;
-        font-weight: 600;
-    }   
-    }
-
-    /* test */
-    .Case-study-pics-about{
-    
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-    }
+header a{
+  display: block;
+  font-family: lato;
+  color: black;
+  font-size: 1.4em;
+  font-weight: 500;
+  text-align: left;
+  }
 
 
 
-    .extra-items{
-        display: flex;
-        justify-content: center;
-    }
-
-    #extra-pic{
-        display:block;
-        
-    }
-    
-    .reseach-stories h3{
-        text-align:left;
-
-    }
-
-    .Case-study-pics-about div{
-        padding-bottom: 3vw;
-    }
-
-
-    .Case-study-pics div{
-        padding-bottom: 3vw;
-    }
-
-    .nav-bar li{
-        font-family: 'Lato';
-        font-size: 3em;
-        font-weight: 700;
-        padding: 0 2vw;
-    }
-
-    #hero-picture img{
-        width: 25vw;
-        height: 25vw;
-        border-radius:50%
-    
-    }
-
-    .header-about{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-
-    .header-about div{
-        width: 40vw;
-        height: 40vw;
-    }
-
-
-
-    footer{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-    }
-
-    hr {
-        width: 87vw;
-    }
-    .reseach-stories-section {
-        height: auto;
-        width: 100vw;
-        
-    }
-
-    .reseach-stories-section h3{
-        padding-left: 4.3vw;
-        font-size: 1.5em;
-    }
-
-    .reseach-stories{
-        padding: 3.2vh;
-    }
+  .Case-study-main-pics{
+    border: 4px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
 }
 
+.Case-study-main-pics img{
+  width: 20vw;
+  height: 30vw;
+}
+
+
+.Case-study-main-pics p {
+  text-align: left;
+  padding-left: 1vw;
+}
+
+  .Case-study-pics-about img{
+    padding: 0 1.3vw 0 1.3vw;
+    width: 46vw;
+    height: 28vw;
+  }
+
+
+
+  .Home-main-pics img {
+    padding: 0 1.3vw 0 1.3vw;
+    width: 46vw;
+    height: 28vw;
+
+
+  }
+  .Case1-Case-study-pics{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+
+  .Home-main-pics {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .Case-study-pics-about {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .Case-study-pics-about,
+  .Case1-Case-study-pics,
+  .Home-main-pics {
+    font-family: Lato, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-transform: none;
+  }
+
+  .Home-main-pics p {
+    padding: 20px 0 0 2vw;
+    font-family: Lato;
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+
+  /* test */
+  /* .Home-main-pics-about{
+    
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    } */
+
+  .extra-items {
+    display: flex;
+    justify-content: center;
+  }
+
+  #extra-pic {
+    display: block;
+  }
+
+  .reseach-stories h3 {
+    text-align: left;
+  }
+  
+  .Case1-Case-study-pics {
+    padding-bottom: 3vw;
+  }
+
+  .Case-study-main-pics{
+    padding-bottom: 3vh;
+  }
+
+  .Home-main-pics div {
+    padding-bottom: 3vw;
+  }
+
+  .nav-bar li {
+    font-family: "Lato";
+    font-size: 3em;
+    font-weight: 700;
+    padding: 0 2vw;
+  }
+
+  #hero-picture img {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+  }
+
+  
+  .header-about {
+    width: 100vw;;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .home-header,
+  .header-about div {
+    width: 40vw;
+    height: 40vw;
+  }
+
+  footer {
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+  hr {
+    width: 87vw;
+  }
+
+  footer{
+    font-size: 1.3em;
+  }
+  .reseach-stories-section {
+    height: auto;
+    width: 100vw;
+  }
+  .flexBox-story h4,
+  .reseach-stories-section h3 {
+    padding-left: 4.3vw;
+    font-size: 1.5em;
+  }
+
+  .flexBox-story p {
+    padding-left: 7vw;
+  }
+
+  .flexBox-story,
+  .reseach-stories {
+    padding: 3.2vh;
+  }
+
+  .flexBox-story a {
+    size: 1.5em;
+  }
+
+  .footer2 {
+    display: inline;
+  }
+
+  footer hr {
+    display: none;
+  }
+
+  .social-Media-pics-Desktop img {
+    padding-top: 2vh;
+    width: 30px;
+    height: 30px;
+    padding-bottom: 5vh;
+  }
+  .social-Media-pics-mobile {
+    display: none;
+  }
+
+  .about-workWith-passion img {
+    padding: 4vw 0;
+    width: 20vw;
+    height: 20vw;
+  }
+  
+  header div {
+    padding-bottom: 9vh;
+  }
+
+  .thank-you-for-scrolling {
+    height: auto;
+    width: 100vw;
+    padding-bottom: 4vw;
+  }
+
+  .thank-you-for-scrolling p{
+    padding-left: 10vw;
+    margin:0;
+  }
+
+  .thank-you-for-scrolling a{
+    padding-left: 10vw;
+  
+  }
+
+  .thank-you-for-scrolling:nth-last-child(){
+    margin-top: 10px;
+  }
+
+  .inner-Case-study-pics-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+  
+  }
+ 
+  .inner-Case-study-pics-about img{
+    width:29vw;
+    height: 35vw;
+
+  }
+
+}
