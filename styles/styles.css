@@ -240,6 +240,7 @@ hr {
 .substory-index {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .reseach-stories-section {
@@ -263,10 +264,11 @@ hr {
   background-size: contain;
   background-repeat: no-repeat;
   padding-left: 12vw;
+  padding-bottom: 7vw;
 }
 
 .thank-you-for-scrolling p{
-  width:100vw;
+  width: 86vw;
 }
 
 
@@ -640,19 +642,21 @@ header a{
     padding-bottom: 9vh;
   }
 
+  .thank-you-for-scrolling-about,
   .thank-you-for-scrolling {
     height: auto;
     width: 100vw;
     padding-bottom: 4vw;
   }
 
+.thank-you-for-scrolling-about,
   .thank-you-for-scrolling p{
-    padding-left: 10vw;
+    padding-left: 6vw;
     margin:0;
   }
-
+.thank-you-for-scrolling-about,
   .thank-you-for-scrolling a{
-    padding-left: 10vw;
+    padding-left: 6vw;
   
   }
 
@@ -708,6 +712,8 @@ header a{
   
 
 .substory-index {
+    display: flex;
+    align-items: center;
   height: 7vh;
 }
 
@@ -729,5 +735,11 @@ header a{
 header div {
   padding:0;
 }
+
+.thank-you-for-scrolling-about {
+  height: auto;
+  width: 100vw;
+  padding-bottom: 4vw;
+  padding-left: 4.3vw;
 
 }
