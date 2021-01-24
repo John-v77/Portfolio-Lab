@@ -1,2 +1,2 @@
-# Portofolio-Lab
+# Portfolio-Lab
 Portfolio of a persona
