@@ -657,4 +657,35 @@ header a{
 
   }
 
+  .museums-section{
+    padding: 0 3vw;
+  }
+
+  .about-museums img {
+    padding: 4vw 0 ;
+    width: 33vw;
+    height: 38vw;
+  }
+  
+  .about-museums{
+    display: flex;
+    flex-direction:row;
+    padding: 2vw 0 6vw 0;
+  }
+
+  .about-museums div{
+    padding: 0 3vw;
+  }
+
+  .museums-text{
+    display: flex;
+    flex-flow: column;
+    justify-content:flex-start;
+  
+  }
+  .museums-text h4,
+  .museums-text p{
+    padding:0;
+  }
+
 }
