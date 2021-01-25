@@ -25,18 +25,23 @@ h6 {
   font-family: roboto;
 }
 a{
+  font-size:1.3em;
+  color:black;
   font-size: inherit;
+  text-decoration: none;
+  font-family: 'Lato';
 }
 
 p{
-  font-size:18px;
+  font-size:1.1em;
   font-family: Lato;
+  padding-left: 6vw;
 }
 
 /* ----------_---- */
 
 .btn span {
-  font-size: 3vw;
+  font-size: 1.2em;
 }
 
 /* Style the active class, and buttons on mouse-over */
@@ -63,6 +68,7 @@ p{
 }
 
 nav img {
+  
   padding: 1vw 0 0 1vw;
   width: 30vw;
   height: 20vw;
@@ -88,11 +94,6 @@ nav img {
   text-decoration: none;
 }
 
-section {
-  margin: 0;
-  padding: 0;
-}
-
 header {
   width: 89vw;
 }
@@ -107,20 +108,39 @@ header a {
   display:none;
 }
 
+.museums-section h4{
+  text-align: center;
+  font-size: 2em;
+}
 
 .thank-you-for-scrolling a{
   font-family: lato;
   color: black;
   font-weight: 600;
   text-align: left;
+  padding-left: 6vw;
+  font-size:1.1em;
 }
 
 header p {
   text-align: center;
+  font-size:1.1rem;
+  text-align: inherit;
+
 }
 
 header div {
-  padding-bottom: 8vh;
+  padding-top: 14vw;
+  padding-left: 3vw;
+  padding-bottom: 2vh;
+}
+
+
+
+header h1{
+  text-align:center;
+  font-size: 1.8rem;
+
 }
 #justify-text-mobile {
   padding: 3vw;
@@ -132,6 +152,14 @@ header:nth-child(2) {
 }
 
 
+.home-header {
+  padding-left: 2vw;
+}
+
+
+.Home-main-pics div{
+  padding-bottom: 7vw;
+}
 
 .Case-study-pics-about{
     display: flex;
@@ -178,19 +206,46 @@ header:nth-child(2) {
 
 }
 
+.inner-Case-study-pics-about h4{
+  padding-left: 6vw;
+  font-size: 2em;
+  align-self: flex-start;
+  margin-bottom: 0;
+}
+
+.inner-Case-study-pics-about p{
+  margin-bottom: 17vw;
+}
+
+
 .Case-study-pics-about img{
+  
   width: 93vw;
   height: 49vh;
 }
 
+.Case-study-main-pics{
+  padding: 10.5vw 3.5vw 3.5vw;
+}
 
 .Case-study-main-pics img,
 .Home-main-pics img {
   width: 93vw;
-    height: 58vw;
+  height: 58vw;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
-.Case-study-pics-about p,
+.Case-study-main-pics p{
+  text-align: left;
+  padding-left: 1vw;
+  font-size:1.3em;
+}
+
+
+.Case-study-main-pics h3{
+  font-size: 1.6em;
+}
 .Home-main-pics p {
   text-align: left;
   padding-left: 1vw;
@@ -201,10 +256,18 @@ header:nth-child(2) {
 }
 
 .social-Media-pics-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   padding-top: 2vh;
-  width: 30px;
-  height: 30px;
-  padding-bottom: 5vh;
+  width: 87vw;
+  height: 15vw;
+  margin: 0;
+  padding: 0 0 3vh 0;
+}
+
+.social-Media-pics-mobile img{
+  padding:0px 5vw;
 }
 
 .social-Media-pics-Desktop {
@@ -267,11 +330,30 @@ hr {
   padding-bottom: 7vw;
 }
 
+
 .thank-you-for-scrolling p{
   width: 86vw;
 }
 
+.thank-you-for-scrolling-about{
+  margin-bottom: 5vw;
+}
 
+.thank-you-for-scrolling-about a{
+  padding-left:6vw;
+  font-size:1.1em;
+  font-family: lato;
+  font-weight:700;
+}
+.thank-you-for-scrolling-about p{
+  font-size:1.1em;
+}
+
+.flexBox-story h4{
+  padding-left: 6vw;
+  font-size:1.9em;
+  text-align: center;
+}
 .flexBox-story {
   display: flex;
   flex-direction: row;
@@ -289,6 +371,13 @@ footer {
 footer hr {
   width: 34vw;
   border: 1px solid;
+}
+
+footer a,
+footer p,
+footer h4{
+ 
+  padding-left: 0;
 }
 
 .footer1 {
@@ -310,13 +399,24 @@ footer hr {
 /* About page CSS */
 
 #hero-picture {
-  padding-bottom: 5vh;
+  padding-bottom: 9vh;
 }
 
 #hero-picture img {
-  width: 50vw;
-  height: 50vw;
+  width: 60vw;
+  height: 60vw;
   border-radius: 50%;
+}
+
+.home-header h1{
+  text-align:left;
+  padding-left: 0;
+}
+
+.home-header div{
+  padding-top: 11vw;
+  padding-left: 3vw;
+  padding-bottom: 6vh;
 }
 
 .about-myStory {
@@ -414,7 +514,7 @@ footer hr {
   }
 
   .btn span {
-    font-size: 1.5vw;
+    font-size: 1.8vw;
   }
 
 header a{
@@ -430,7 +530,8 @@ header a{
 
 
   .Case-study-main-pics{
-     padding: 3vw 7vw 3vw;
+
+    padding: 3.5vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -438,9 +539,12 @@ header a{
     justify-content: space-evenly;
 }
 
+
 .Case-study-main-pics img{
   width: 86vw;
   height: 35vw;
+  border-radius: 10px;
+  box-shadow: none;
 }
 
 
@@ -455,12 +559,21 @@ header a{
     height: 28vw;
   }
 
+  .Case-study-pics-about h4{
+    font-size:1.4em;
+  }
+
+  .Case-study-pics-about p{
+    font-size:1.1em;
+    padding: 0 2vw 0;
+  }
 
 
   .Home-main-pics img {
     padding: 0 1.3vw 0 1.3vw;
     width: 46vw;
     height: 28vw;
+    box-shadow: none;
 
 
   }
@@ -557,12 +670,7 @@ header a{
     margin-top: 4vw;
   }
 
-  .home-header {
-    padding-left: 10vw;
-    margin-top: 4vw;
-    width: 100vw;
-    height: 25vw;
-  }
+  
 
 
   .header-about div {
@@ -571,7 +679,7 @@ header a{
   }
 
   footer {
-    width:100vw;
+    width:98vw;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -582,8 +690,12 @@ header a{
     width: 87vw;
   }
 
-  footer{
-    font-size: 1.3em;
+  footer a,
+  footer p,
+  footer h4{
+    font-size: 1.2em;
+    font-family: lato;
+    padding-left: 0;
   }
   .reseach-stories-section {
     height: auto;
@@ -591,7 +703,7 @@ header a{
   }
   .flexBox-story h4{
   
-      padding-left: 4.3vw;
+      padding-left: 0vw;
       font-size: 1.5em;
   }
   .reseach-stories-section h3 {
@@ -622,11 +734,17 @@ header a{
   }
 
   .social-Media-pics-Desktop img {
-    padding-top: 2vh;
-    width: 30px;
-    height: 30px;
+    width: 4.5vw;
+    height: 4.5vw;
     padding-bottom: 5vh;
   }
+
+  
+
+  .social-Media-pics-Desktop img:nth-last-child(){
+    padding-right: 6vw;
+  }
+
   .social-Media-pics-mobile {
     display: none;
   }
@@ -645,18 +763,34 @@ header a{
   .thank-you-for-scrolling-about,
   .thank-you-for-scrolling {
     height: auto;
-    width: 100vw;
+    width: 96vw;
     padding-bottom: 4vw;
+    padding-top: 20vh;
+    padding-left: 2.7vw;
   }
 
 .thank-you-for-scrolling-about,
   .thank-you-for-scrolling p{
-    padding-left: 6vw;
+    padding-left: 2vw;
     margin:0;
   }
-.thank-you-for-scrolling-about,
+
+  .thank-you-for-scrolling p:last-child{
+    padding-bottom: 8vh;
+  }
+.thank-you-for-scrolling-about a{
+  padding-left: 6vw;
+  font-size: 1.3em;
+}
   .thank-you-for-scrolling a{
-    padding-left: 6vw;
+    padding-left: 2vw;
+    display: block;
+    font-family: lato;
+    color: black;
+    font-size: 1.4em;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
   
   }
 
@@ -704,7 +838,10 @@ header a{
     justify-content:flex-start;
   
   }
-  .museums-text h4,
+  .museums-text h4{
+    font-size:1.4em;
+    padding: 0;
+  }
   .museums-text p{
     padding:0;
   }
@@ -742,4 +879,47 @@ header div {
   padding-bottom: 4vw;
   padding-left: 4.3vw;
 
+}
+
+#Valerie-about{
+  
+  text-align: left;
+}
+
+.home-header {
+  padding-left: 7vw;
+  margin-top: 4vw;
+  width: 100vw;
+  height: 25vw;
+}
+
+.home-header h1{
+  text-align:left;
+  padding-left: 0;
+}
+
+.home-header div{
+  padding-top: 1vw;
+  padding-left: 3vw;
+  padding-bottom: 6vh;
+}
+
+.social-Media-pics-Desktop{
+  display:block;
+}
+
+.hero-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social-Media-pics-mobile{
+  display:none;
+}
+
+.thank-you-for-scrolling-about a,
+.thank-you-for-scrolling-about p{
+  padding-left: 2vw;
+}
 }
