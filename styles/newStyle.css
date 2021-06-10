@@ -86,12 +86,16 @@ nav img {
     display:none;
   }
 
+  .Home-main-pics div:nth-last-child(-n+2){
+    display: none;
+  }
+
   .Home-main-pics img {
-    width: 22rem;
+    width: 94%;
     height: 13rem;
     border-radius: 10px;
     box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
-    margin-left: 0.7rem;
+    margin-left: 3%;
   }
 
   .Home-main-pics p{
@@ -100,13 +104,46 @@ nav img {
     font-family: Lato;
   }
 
-  .extra-items {
-    display: none;
+  /* /Reseach stories */
+  .reseach-stories-section {
+    height: auto;
+    width: 100vw;
   }
+
+  .substory-index{
+    display: flex;
+  }
+
+  .column-1{
+    align-self: center;
+  
+  }
+  /* .flexBox-story h4{
+  
+      padding-left: 0vw;
+      font-size: 1.5em;
+  }
+  .reseach-stories-section h3 {
+    padding-left: 0.5rem;
+    font-size: 1.5em;
+  }
+
+  .flexBox-story p {
+    padding-left: 7vw;
+  }
+
+  .flexBox-story,
+  .reseach-stories {
+    padding: 3.2vh;
+  }
+
+  .flexBox-story a {
+    size: 1.5em;
+  } */
 
   
 /* /Media Screem Medium*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 650px) {
 
 
     .nav-bar {
@@ -156,17 +193,22 @@ nav img {
     .Home-main-pics{
       display: flex;
       flex-wrap: wrap;
-      padding-left: 0.4rem;
+      padding-left: 2.3%;
     }
 
     .Home-main-pics div{
       margin-bottom: 1.5rem;
+      width: 50%;
+    }
+
+    .Home-main-pics div:nth-last-child(-n+2){
+      display: block;
     }
 
     .Home-main-pics img {
-      width: 22rem;
+      width: 90%;
       height: 13rem;
-      margin: 0 0.3rem 0 1rem;
+      margin: 0 7% 0 2%;
     }
 
     .Home-main-pics p {
@@ -174,16 +216,7 @@ nav img {
       padding-left: 2rem;
       font-size: 1.1em;
       font-family: Lato;
-    }
-
-    .extra-items {
-      display: flex;
-      justify-content: center;
-    }
-
-
-
-     
+    }    
 
 }
 
@@ -193,9 +226,9 @@ nav img {
       background-color: rgb(61, 61, 61);
   }
   main{
-      width: 80%;
+      width: 70%;
       background-color: whitesmoke;
-      margin: 0 10%;
+      margin: 0 15%;
   }
 
   .nav-bar li {
@@ -241,9 +274,9 @@ nav img {
   }
 
   .Home-main-pics img {
-    width: 34rem;
-    height: 20rem;
-    margin: 0 0.3rem 0 2.1rem;
+    width: 86%;
+    height: 15rem;
+    margin: 0 0.5% 0 5.3%;
   }
 
   .Home-main-pics p {
