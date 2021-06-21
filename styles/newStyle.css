@@ -177,7 +177,29 @@ nav img {
   .flexBox-story a {
     size: 1.5em;
   } */
+  footer {
+    width: 100%;
+    background: linear-gradient(#d8d8d8cc, #fafafa00);
+    /* margin: 0 1rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
+  .footer2{
+    display: none;
+  }
+
+  footer hr {
+    width: 90%;
+    border: 1px solid;
+  }
+
+  footer a,
+  footer p,
+  footer h4{
+    padding:0 2rem;
+  }
   
 /* /Media Screem Medium*/
 @media screen and (min-width: 650px) {
@@ -278,6 +300,10 @@ nav img {
     footer p,
     footer h4{
       padding:0 2rem;
+    }
+
+    .footer2{
+      display:block;
     }
 
 }

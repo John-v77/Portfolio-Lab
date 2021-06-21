@@ -1,0 +1,38 @@
+.Case-study-main-pics img{
+    width: 94%;
+    height: 12rem;
+    margin-left: 0.75rem;
+    border-radius: 10px;
+}
+
+.Case-study-main-pics h3{
+    margin-left: 0.75rem;
+    margin-top: 2rem;
+}
+
+.Case-study-main-pics p{
+    margin:0.75rem;
+    padding: 0.5rem;
+}
+
+
+@media screen and (min-width: 650px) {
+    .Case-study-main-pics img{
+        height: 20rem;
+        margin-left: 1.5rem;
+    }
+
+    .Case-study-main-pics img:last-child{
+        margin-bottom: 2rem;
+    }
+
+    .Case-study-main-pics h3{
+        margin: 2rem 1.5rem 0.2rem 1.5rem;
+    }
+    
+    .Case-study-main-pics p{
+        margin: 0.5rem 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {}
