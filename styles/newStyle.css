@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
 body{
     margin: 0;
     padding: 0;
@@ -21,7 +24,7 @@ a{
 }
 
 p{
-  font-size:1.1em;
+  font-size:1em;
   font-family: Lato;
   padding-left: 6vw;
 }
@@ -107,7 +110,9 @@ nav img {
   /* /Reseach stories */
   .reseach-stories-section {
     height: auto;
-    width: 100vw;
+    width: 98%;
+    background-image: linear-gradient(#80ffdd, White);
+    padding: 2% 0 0 4%;
   }
 
   .substory-index{
@@ -118,6 +123,38 @@ nav img {
     align-self: center;
   
   }
+
+  #reseach-stories{
+    margin-left: 2%;
+  }
+
+  .column-2{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .thank-you-for-scrolling {
+    height: auto;
+    width: 100vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  
+  .thank-you-for-scrolling p{
+    width: 90%;
+    padding: 1rem 0 0 0;
+  }
+
+  .thank-you-for-scrolling a{
+    font-size:1.1em;
+    font-family: lato;
+    font-weight:700;
+  }
+
+
   /* .flexBox-story h4{
   
       padding-left: 0vw;
@@ -216,7 +253,32 @@ nav img {
       padding-left: 2rem;
       font-size: 1.1em;
       font-family: Lato;
-    }    
+    }   
+    
+    .thank-you-for-scrolling h3{
+      margin-top: 2rem;
+    }
+
+    
+    footer {
+      width: 100%;
+      background: linear-gradient(#d8d8d8cc, #fafafa00);
+      margin: 0 auto 2x;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    footer hr {
+      width: 90%;
+      border: 1px solid;
+    }
+
+    footer a,
+    footer p,
+    footer h4{
+      padding:0 2rem;
+    }
 
 }
 
@@ -282,6 +344,13 @@ nav img {
   .Home-main-pics p {
     margin: 0.5rem 0 1rem 1rem;
   }
+
+
+  .reseach-stories-section{
+    width: 96%;
+  }
+
+
 
   /* / */
 }
