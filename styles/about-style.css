@@ -1,17 +1,106 @@
+
 .header-about{
-  display: flex;
-  flex-direction: column;
+  width: 94%;
+}
+.header-about h1{
+  margin: 7%;
+}
+
+.social-Media-pics-Desktop{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.social-Media-pics-Desktop img{
+  width: 3rem;
+  height: 3rem;
 }
 
 #hero-picture img {
-    width: 18rem;
-    height: 18rem;
-    border-radius: 50%;
-    margin: 0 2rem;
-  }
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  margin: 0 2.8rem 3rem;
+}
 
+.Case-study-pics-about{
+  background: linear-gradient(
+          181.29deg,
+          rgba(114, 239, 221, 0.8) 1.1%,
+          rgba(128, 255, 219, 0) 77.5% );
+}
+
+.Case-study-pics-about img{
+  margin: 8% 2.7% 2.7%;
+  width: 94%;
+  height: 25rem;
+}
+
+.Case-study-pics-about h3{
+  padding-top: 8%;
+  padding-left: 5%;
+  margin: 0;
+}
+
+.Case-study-pics-about h4{
+  padding-left: 5%;
+  margin: 0;
+}
+
+.museums-section{
+  width: 94%;
+}
+
+.museums-section h4{
+  margin: 6rem 0 2rem;
+  text-align: center;
+}
+
+.museums-section h4:last-child{
+  margin-top: 0;
+}
+
+.museums-section img{
+  width: 10rem;
+  height: 10rem;
+  margin: 2rem 6rem;
+}
+
+.about-bot-H1{
+  background-color: gray;
+  color: white;
+  height: 8rem;
+  margin: 4rem 0;
+  background: linear-gradient(
+  180deg,
+  rgba(116, 0, 184, 0.8) 0%,
+  rgba(100, 223, 223, 0.5) 99.99%,
+  rgba(221, 221, 221, 0) 100%
+  );
+}
+
+.about-bot-H1 h1{
+  text-align: center;
+  padding-top: 3rem;
+ 
+}
+
+/*  */
+
+  /* #story-about p:nth-child(2){
+    width: 100%;
+  } */
+
+  /* #story-about p:last-child{
+    margin-bottom: 2rem;
+  }
+  
+   */
+
+@media screen and (min-width: 650px) {
   .social-Media-pics-Desktop{
-    padding: 2rem;
+    text-align: left;
+    margin-left: 2rem;
   }
 
   .social-Media-pics-Desktop img{
@@ -28,122 +117,6 @@
     width: 90%;
   }
 
-  /* #story-about p:nth-child(2){
-    width: 100%;
-  } */
-
-  #story-about p:last-child{
-    margin-bottom: 2rem;
-  }
-  
-  .header-about {
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 1rem;
-  }
-
-  .Case-study-pics-about {
-    display: flex;
-    justify-content: space-evenly;
-    background: linear-gradient(
-      181.29deg,
-      rgba(114, 239, 221, 0.8) 1.1%,
-      rgba(128, 255, 219, 0) 77.5%
-    );
-    padding-top:2rem;
-  }
-  
-  .inner-Case-study-pics-about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px;
-  
-  }
-  
-  .inner-Case-study-pics-about h4{
-    padding-left: 6vw;
-    font-size: 2em;
-    align-self: flex-start;
-    margin-bottom: 0;
-  }
-  
-  .inner-Case-study-pics-about p{
-    margin-bottom: 10rem;
-  }
-  
-  
-  .Case-study-pics-about img{
-    
-    width: 93vw;
-    height: 49vh;
-  }
-
-
-  
-  .museums-section{
-    padding: 0 3vw;
-  }
-
-  .about-museums img {
-    padding: 4vw 0 ;
-    width: 100%;
-    height: 22rem;
-  }
-  
-  .about-museums{
-    display: flex;
-    flex-direction:row;
-    padding: 1rem 0 4rem;
-  }
-
-  .about-museums div{
-    padding: 0 3vw;
-  }
-
-  .museums-text{
-    display: flex;
-    flex-flow: column;
-    justify-content:flex-start;
-    width: 50%;
-    margin-top: 2rem;
-  
-  }
-
-  .museums-pics{
-    width: 50%;
-  }
-
-  .museums-text h4{
-    font-size:1.4em;
-    padding: 0;
-  }
-  .museums-text p{
-    padding:0;
-  }
-
-  
-  .about-bot-H1{
-    background-color: gray;
-    color: white;
-    height: 10rem;
-
-    background: linear-gradient(
-    180deg,
-    rgba(116, 0, 184, 0.8) 0%,
-    rgba(100, 223, 223, 0.5) 99.99%,
-    rgba(221, 221, 221, 0) 100%
-    );
-  }
-
-  .about-bot-H1 h1{
-    text-align: center;
-    padding-top: 4rem;
-  }
-
-@media screen and (min-width: 650px) {
-
     .inner-Case-study-pics-about{
       width: 33%;
     }
@@ -158,9 +131,91 @@
       }
     
       .Case-study-pics-about p{
-        /* font-size:1.1em; */
         padding: 0 2vw 0;
       }
+
+      .header-about {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 1rem;
+      }
+    
+      .Case-study-pics-about {
+        display: flex;
+        justify-content: space-evenly;
+        
+        padding-top:2rem;
+      }
+      
+      .inner-Case-study-pics-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+      
+      }
+      
+      .inner-Case-study-pics-about h4{
+        padding-left: 6rem;
+        font-size: 1.2rem;
+        align-self: flex-start;
+        margin-bottom: 0;
+      }
+      
+      .inner-Case-study-pics-about p{
+        margin-bottom: 7rem;
+      }   
+      
+      .museums-section{
+        padding: 0 3vw;
+      }
+    
+      .about-museums img {
+        padding: 4vw 0 ;
+        width: 100%;
+        height: 22rem;
+        margin: 0;
+      }
+      
+      .about-museums{
+        display: flex;
+        flex-direction:row;
+        padding: 1rem 0 4rem;
+      }
+    
+      .about-museums div{
+        padding: 0 3vw;
+      }
+
+      .museums-section h4{
+        margin: 2rem 0 0;
+      }
+    
+      .museums-text{
+        display: flex;
+        flex-flow: column;
+        justify-content:flex-start;
+        width: 50%;
+        margin-top: 2rem;
+      
+      }
+    
+      .museums-pics{
+        width: 50%;
+      }
+    
+      .museums-text h4{
+        font-size:1.4em;
+        padding: 0;
+      }
+      .museums-text p{
+        padding:0;
+      }
+    
+      
+     
 }
 
 @media screen and (min-width: 1000px) {}

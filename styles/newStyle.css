@@ -73,6 +73,11 @@ nav img {
   text-decoration: none;
 }
 
+.nav-bar a:hover,
+.nav-bar a:active{
+  color: #9033C6;
+}
+
 /* /Home Content */
 .home-header {
     width: 89vw;
